@@ -7,6 +7,7 @@
 Проще всего запустить сам файл utils.py или функцию main оттуда
 1) `python utils.py`
 2) `from utils import main`
+
 Либо запускать функции fix_marks/remove_chastisements/create_commendation по отдельности.
  
 ## Функции в файле:
