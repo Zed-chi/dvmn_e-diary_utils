@@ -97,6 +97,8 @@ def main():
         print("Найдено несколько учеников, уточните запрос")
     except ObjectDoesNotExist as e:
         print("Имя не найдено")
+    except IndexError as e:
+        print("Предмет не найден")
 
 
 if __name__ == "__main__":
